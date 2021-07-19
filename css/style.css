@@ -247,15 +247,24 @@ button {
     margin: 0;
     border-bottom: 1px solid #000;
   }
+  .navbar-center nav ul li:last-child {
+    display: none;
+  }
   .navbar-center nav ul li a {
     color: #fff;
   }
   .navbar-center nav ul li:hover {
     background-color: #8262b5;
   }
+  .navbar-center nav ul li:hover a {
+    color: #fff;
+  }
   .navbar-right .menu-toggle i {
     font-size: 30px;
     color: #8262b5;
+  }
+  .navbar-right .items-icon {
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 1271px) {
@@ -283,6 +292,9 @@ button {
   .navbar-right {
     width: 100%;
     justify-content: flex-start;
+  }
+  .navbar-right .items-icon:first-child i {
+    padding-left: 0;
   }
 }
 .footer {
@@ -533,6 +545,7 @@ button {
   }
   .banner-left {
     width: 100%;
+    margin-bottom: 30px;
   }
   .banner-right {
     width: 100%;

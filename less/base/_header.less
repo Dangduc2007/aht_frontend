@@ -102,11 +102,17 @@
                         background-color: #222;
                         margin: 0;
                         border-bottom: 1px solid @cl-black;
+                        &:last-child{
+                            display: none;
+                        }
                         a{
                             color: #fff;
                         }
                         &:hover{
                             background-color: @main-color;
+                            a{
+                                color: #fff;
+                            }
                         }
 
                     }
@@ -114,11 +120,14 @@
             }
         }
         &-right{
-            .menu-toggle{
+            .menu-toggle {
                 i{
                     font-size: 30px;
                     color: @main-color;
                 }
+            }
+            .items-icon{
+                cursor: pointer;
             }
         }
             
@@ -126,10 +135,10 @@
 }
 @media screen and (min-width: 1271px){
     .navbar{
-        &-center{
-            nav{
+        &-center {
+            nav {
                 ul{
-                    .navbar-title{
+                    .navbar-title {
                         display: none;
                     }
                 }
@@ -163,6 +172,13 @@
         &-right{
             width: 100%;
             justify-content: flex-start;
+            .items-icon{
+                &:first-child{
+                    i{
+                        padding-left: 0;
+                    }
+                }
+            }
         }
     }
 }
