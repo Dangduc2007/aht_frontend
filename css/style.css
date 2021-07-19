@@ -314,6 +314,9 @@ button {
 .footer-top .about-us .social-icon {
   margin-top: 44px;
 }
+.footer-top .about-us .social-icon a:hover {
+  color: #fff;
+}
 .footer-top .about-us .social-icon i {
   margin-right: 28px;
   font-size: 14px;
