@@ -92,7 +92,6 @@
 
         &-inner{
             justify-content: space-between;
-            padding: 0 15px;
             font-size: 14px;
             font-family: 'OpenSans';
             letter-spacing: 0.2px;
@@ -164,10 +163,15 @@
             &-inner{
                 justify-content: center;
             }
-             &-left{
-            padding-bottom: 20px;
-            font-size: 12px;
+            &-left{
             text-align: center;
+            }
+            &-right{
+                order: -1;
+                margin-bottom: 15px;
+                a{
+                    display: inline-block;
+                }
             }
        }
     }

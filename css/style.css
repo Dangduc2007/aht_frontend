@@ -19,9 +19,9 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat';
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
-  font-weigt: 700;
+  font-weight: 700;
 }
 @font-face {
   font-family: 'OpenSans';
@@ -381,7 +381,6 @@ button {
 }
 .footer-bottom-inner {
   justify-content: space-between;
-  padding: 0 15px;
   font-size: 14px;
   font-family: 'OpenSans';
   letter-spacing: 0.2px;
@@ -441,9 +440,14 @@ button {
     justify-content: center;
   }
   .footer-bottom-left {
-    padding-bottom: 20px;
-    font-size: 12px;
     text-align: center;
+  }
+  .footer-bottom-right {
+    order: -1;
+    margin-bottom: 15px;
+  }
+  .footer-bottom-right a {
+    display: inline-block;
   }
 }
 .banner {
@@ -569,6 +573,18 @@ button {
     padding: 0 15px;
   }
 }
+@media screen and (max-width: 600px) and (min-width: 481px) {
+  .banner-right-content-down .banner-right-down-inner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-right-content-down .banner-right-down-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
 .products-list {
   margin-bottom: 28px;
 }
@@ -607,6 +623,7 @@ button {
   bottom: 5px;
 }
 .products-list .product-inner .product-image .btn-cart a {
+  color: #000;
   font-size: 12px;
   font-weight: 400;
   padding: 15px 20px 14px;
@@ -703,7 +720,7 @@ button {
   left: 20px;
   width: 60px;
   height: 60px;
-  background-color: #8262b5;
+  background-color: #a1d1dd;
   box-sizing: border-box;
   padding: 5px;
 }
