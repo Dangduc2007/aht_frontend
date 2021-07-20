@@ -54,11 +54,14 @@
         display: flex;
         width: 15%;
         justify-content: flex-end;
-        .items-icon{
-            i{
+        .items-icon {
+            i {
                 font-size: 30px;
                 padding-left: 28px;
-                color: @main-color;
+                color: @cl-black;
+                &:hover {
+                    color: @main-color;
+                }
                 
             }
         }
@@ -125,7 +128,12 @@
             .menu-toggle {
                 i{
                     font-size: 30px;
-                    color: @main-color;
+                    
+                }
+                &:hover{
+                    i {
+                        color: @main-color;
+                    }
                 }
             }
             .items-icon{

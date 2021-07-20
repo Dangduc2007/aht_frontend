@@ -1,5 +1,5 @@
 .footer{
-    background-color: #000;
+    background-color: #222;
     color: @footer-color;
     a{
         color: @footer-color;
@@ -91,9 +91,11 @@
     }
     &-bottom{
         border-top: 1px solid @border-footer;
-        padding: 23px 15px;
+        padding: 23px 0;
 
         &-inner{
+            display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             font-size: 14px;
             font-family: 'OpenSans';
