@@ -203,6 +203,7 @@ button:hover {
 .navbar-right .items-icon i {
   font-size: 30px;
   padding-left: 28px;
+  color: #8262b5;
 }
 @media screen and (max-width: 1270px) {
   .navbar {
