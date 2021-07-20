@@ -115,6 +115,9 @@ button {
   border: none;
   background: none;
 }
+button:hover {
+  cursor: pointer;
+}
 .slick-dots li button:before {
   content: '';
   display: block;
@@ -266,6 +269,9 @@ button {
   }
   .navbar-right .items-icon {
     cursor: pointer;
+  }
+  .navbar-right .items-icon button {
+    color: #8262b5;
   }
 }
 @media screen and (min-width: 1271px) {
