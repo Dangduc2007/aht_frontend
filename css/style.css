@@ -223,7 +223,7 @@ button:hover {
     right: 0;
     width: 50vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #000;
     -webkit-transition: all, 0.5s;
     -ms-transition: all, 0.5s;
     transition: all, 0.5s;
@@ -243,6 +243,7 @@ button:hover {
     color: #fff;
     background-color: #8262b5;
     text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
   }
   .navbar-center nav ul.active {
     -webkit-transform: translateX(0);
@@ -251,16 +252,16 @@ button:hover {
   }
   .navbar-center nav ul li {
     display: block;
-    padding: 15px;
-    background-color: #222;
     margin: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ddd;
   }
   .navbar-center nav ul li:last-child {
     display: none;
   }
   .navbar-center nav ul li a {
     color: #fff;
+    display: block;
+    padding: 15px;
   }
   .navbar-center nav ul li:hover {
     background-color: #8262b5;
